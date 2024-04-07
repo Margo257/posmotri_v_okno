@@ -48,9 +48,10 @@ ol {
 }
 
 .content {
-  margin: 130px 30px;
+  margin: 130px auto;
   display: grid;
   grid-template-columns: 711px 399px;
+  justify-content: center;
   gap: 30px;
   align-items: flex-end;
 }
@@ -124,7 +125,7 @@ ol {
   background-color: transparent;
   border: 1px solid transparent;
   font-family: inherit;
-  color: #fff;
+  color: currentColor;
   font-size: inherit;
   appearance: none;
   border-block-start: 1px solid currentColor;
@@ -162,6 +163,7 @@ ol {
 }
 
 .button {
+  min-block-size: 34px;
   font-family: inherit;
   font-size: inherit;
   font-weight: 700;
@@ -300,7 +302,6 @@ ol {
 .more-button {
   bottom: 0;
   inline-size: 100%;
-  min-block-size: 34px;
 }
 
 .more-button:focus-visible {
