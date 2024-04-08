@@ -9,6 +9,8 @@ html {
 }
 
 .page {
+  display: grid;
+  place-content: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -48,10 +50,8 @@ ol {
 }
 
 .content {
-  margin: 130px auto;
   display: grid;
   grid-template-columns: 711px 399px;
-  justify-content: center;
   gap: 30px;
   align-items: flex-end;
 }
